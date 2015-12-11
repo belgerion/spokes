@@ -97,3 +97,10 @@ body {
 .drkBold {
   font-weight: 900;
 }
+.site {
+  margin-top: 80px;
+}
+.navbar-default {
+  width: 60%;
+  margin: 0 19.3%;
+}
