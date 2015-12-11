@@ -24,6 +24,10 @@
   background-color: #dcfeff;
   text-align: left;
 }
+.topButtons {
+  width: 100%;
+  background-color: #dcfeff;
+}
 .navList {
   background-color: #e1e1e1;
 }
