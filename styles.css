@@ -1,0 +1,87 @@
+.container {
+    background-color: #e1e1e1;
+}
+.style {
+    background-color: blue;
+}
+.logo {
+  padding: 5px 0 0 0 !important;
+}
+.title {
+  padding: 20px 0 0 0 !important;
+  margin-left: -50px !important;
+}
+.search{
+  margin: 40px 0 0 330px !important;
+  background-color: #c2fdff;
+}
+.skipNav {
+  background-color: white;
+}
+.leftButtons {
+  width: 100%;
+  height: 30px;
+  background-color: #dcfeff;
+  text-align: left;
+}
+.navList {
+  background-color: #e1e1e1;
+}
+.navPics {
+  float: center;
+  position: relative;
+  margin: 10px 0;
+}
+.content {
+  background-color: white;
+  padding: 5px 0 0 0;
+  font-size: 20px;
+}
+body {
+  background-color: #d7d7d7 !important;
+}
+.whiteCon {
+  clear: all;
+  background-color: white;
+  color: black;
+}
+.yellowCon {
+  background-color: yellow;
+  color: black;
+}
+.greenCon {
+  background-color: #59ff59;
+  color: black;
+}
+.blackCon {
+  background-color: black;
+  color: white;
+}
+.fontBtn {
+  background-color: #d0fdff;
+}
+.gsc-inline-block {
+  width: 100px !important;
+}
+.rounded {
+  border-radius: 15px;
+}
+.subMenu {
+  display: none;
+}
+.dropStyle {
+  width: 90%;
+  background-color: #dcfeff;
+  text-align: left;
+  margin-left: 25px;
+}
+.show {
+  display: inherit;
+}
+.btn-style {
+  padding: 0 0 0 0 !important;
+  border: 1px solid black;
+} 
+.position {
+  padding: 0 24px 0 23px;
+}
