@@ -20,13 +20,15 @@
 }
 .leftButtons {
   width: 100%;
-  height: 30px;
+  height: 40px;
   background-color: #dcfeff;
   text-align: left;
+  font-size: 18px;
 }
 .topButtons {
   width: 100%;
   background-color: #dcfeff;
+  font-size: 18px;
 }
 .navList {
   background-color: #e1e1e1;
@@ -88,4 +90,10 @@ body {
 } 
 .position {
   padding: 0 24px 0 23px;
+}
+.ltBold {
+  font-weight: bold;
+}
+.drkBold {
+  font-weight: 900;
 }
