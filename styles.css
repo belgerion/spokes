@@ -1,3 +1,32 @@
+@media (max-width: 1000px) { 
+    .logo {
+      width: 30%;
+      float: left;
+
+    }
+    .title {
+      width: 60%;
+      margin: auto;
+      float: left;
+    }
+    .search {
+      float: right;
+      width: 100%;
+    }
+    .navbar-default {
+      position: relative !important;
+    }
+    .topButtons {
+      font-size: 12px;
+      font-weight: none;
+      font-size: 15px;
+    }
+ }
+@media (min-width: 2000px) { 
+  .topButtons {
+    font-size: 18px;
+  }
+}
 .container {
     background-color: #e1e1e1;
 }
@@ -28,7 +57,7 @@
 .topButtons {
   width: 100%;
   background-color: #dcfeff;
-  font-size: 18px;
+  height: 50px;
 }
 .navList {
   background-color: #e1e1e1;
@@ -101,6 +130,7 @@ body {
   margin-top: 80px;
 }
 .navbar-default {
-  width: 62%;
   margin: 0 auto;
+  background-color: #d7d7d7 !important;
+  border-color: #d7d7d7 !important;
 }

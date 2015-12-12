@@ -77,17 +77,27 @@
                 <div class="subMenu about"><button type="button" id="about" class="dropStyle">About SPOKES</button></div>
                 <div class="subMenu about"><button type="button" id="about" class="dropStyle">What is Independant Living?</button></div>
                 <div class="subMenu about"><button type="button" id="about" class="dropStyle">Oregon Indpendant Living Centers</button></div>
-                <button type="button" id="home" class="leftButtons">Services</button>
+                <button type="button" id="services" class="leftButtons">Services</button>
+                <div class="subMenu services"><button type="button" id="services" class="dropStyle">Information and Referal</button></div>
+                <div class="subMenu services"><button type="button" id="services" class="dropStyle">Peer Counseling</button></div>
+                <div class="subMenu services"><button type="button" id="services" class="dropStyle">Individual and Systems Advocacy</button></div>
+                <div class="subMenu services"><button type="button" id="services" class="dropStyle">Social Security Advocacy</button></div>
+                <div class="subMenu services"><button type="button" id="services" class="dropStyle">Independent Living Skills</button></div>
+                <div class="subMenu services"><button type="button" id="services" class="dropStyle">Transition Services</button></div>
+                <div class="subMenu services"><button type="button" id="services" class="dropStyle">Low Vision Assessment</button></div>
+                <div class="subMenu services"><button type="button" id="services" class="dropStyle">Work Incentive Network (WIN)</button></div>
+                <div class="subMenu services"><button type="button" id="services" class="dropStyle">Community Education and Outreach</button></div>
+                <button type="button" id="calact" class="leftButtons">Calendar/Activities</button>
+                <button type="button" id="news" class="leftButtons">Newsletter/"The Hub"</button>
+                <button type="button" id="resources" class="leftButtons">Resources</button>
+                <div class="subMenu resources"><button type="button" id="resources" class="dropStyle">Area on Aging</button></div>
+                <div class="subMenu resources"><button type="button" id="resources" class="dropStyle">ADRC</button></div>
+                <div class="subMenu resources"><button type="button" id="resources" class="dropStyle">Aging and People with Disabilities</button></div>
+                <div class="subMenu resources"><button type="button" id="resources" class="dropStyle">Department of Human Services</button></div>
+                <div class="subMenu resources"><button type="button" id="resources" class="dropStyle">DD Services</button></div>
+                <button type="button" id="forms" class="leftButtons">Forms/Flyers</button>
                 <div class="subMenu home"><button type="button" id="home" class="dropStyle">Home</button></div>
-                <button type="button" id="home" class="leftButtons">Calendar/Activities</button>
-                <div class="subMenu home"><button type="button" id="home" class="dropStyle">Home</button></div>
-                <button type="button" id="home" class="leftButtons">Newsletter/"The Hub"</button>
-                <div class="subMenu home"><button type="button" id="home" class="dropStyle">Home</button></div>
-                <button type="button" id="home" class="leftButtons">Resources</button>
-                <div class="subMenu home"><button type="button" id="home" class="dropStyle">Home</button></div>
-                <button type="button" id="home" class="leftButtons">Forms/Flyers</button>
-                <div class="subMenu home"><button type="button" id="home" class="dropStyle">Home</button></div>
-                <button type="button" id="about" class="leftButtons">Contact Us</button>
+                <button type="button" id="contact" class="leftButtons">Contact Us</button>
                 
               <div class="navPics">
                 <img src="http://belgerion.github.io/spokes/spokes-sign-window.jpg" class="img-responsive"></img>
@@ -150,11 +160,48 @@
       $('.fontBtnXLrg').click(function(){
         $('.content').css('font-size', '40px');
       });
-      /*$('#home').click(function(){
-        $('.home').toggleClass('show');
-      });*/
+      $('#home').click(function(){
+        $('.about').removeClass('show');
+        $('.services').removeClass('show');
+        $('.resources').removeClass('show');
+      });
       $('#about').click(function(){
         $('.about').toggleClass('show');
+        $('.home').removeClass('show');
+        $('.services').removeClass('show');
+        $('.resources').removeClass('show');
+      });
+      $('#services').click(function(){
+        $('.services').toggleClass('show');
+        $('.home').removeClass('show');
+        $('.about').removeClass('show');
+        $('.resources').removeClass('show');
+      });
+      $('#calact').click(function(){
+        $('.about').removeClass('show');
+        $('.services').removeClass('show');
+        $('.resources').removeClass('show');
+      });
+      $('#news').click(function(){
+        $('.about').removeClass('show');
+        $('.services').removeClass('show');
+        $('.resources').removeClass('show');
+      });
+      $('#resources').click(function(){
+        $('.resources').toggleClass('show');
+        $('.about').removeClass('show');
+        $('.services').removeClass('show');
+        $('.home').removeClass('show');
+      });
+      $('#forms').click(function(){
+        $('.about').removeClass('show');
+        $('.services').removeClass('show');
+        $('.resources').removeClass('show');
+      });
+      $('#contact').click(function(){
+        $('.about').removeClass('show');
+        $('.services').removeClass('show');
+        $('.resources').removeClass('show');
       });
     </script>
 </body>
