@@ -1,32 +1,4 @@
-@media (max-width: 1000px) { 
-    .logo {
-      width: 30%;
-      float: left;
 
-    }
-    .title {
-      width: 60%;
-      margin: auto;
-      float: left;
-    }
-    .search {
-      float: right;
-      width: 100%;
-    }
-    .navbar-default {
-      position: relative !important;
-    }
-    .topButtons {
-      font-size: 12px;
-      font-weight: none;
-      font-size: 15px;
-    }
- }
-@media (min-width: 2000px) { 
-  .topButtons {
-    font-size: 18px;
-  }
-}
 .container {
     background-color: #e1e1e1;
 }
@@ -45,7 +17,7 @@
   background-color: #c2fdff;
 }
 .skipNav {
-  background-color: white;
+
 }
 .leftButtons {
   width: 100%;
@@ -92,6 +64,10 @@ body {
   background-color: black;
   color: white;
 }
+.pinkCon {
+  background-color: pink;
+  color: black;
+}
 .fontBtn {
   background-color: #d0fdff;
 }
@@ -121,10 +97,10 @@ body {
   padding: 0 24px 0 23px;
 }
 .ltBold {
-  font-weight: bold;
+  font-size: 20px;
 }
 .drkBold {
-  font-weight: 900;
+  font-size: 30px;
 }
 .site {
   margin-top: 80px;
@@ -133,4 +109,46 @@ body {
   margin: 0 auto;
   background-color: #d7d7d7 !important;
   border-color: #d7d7d7 !important;
+}
+.showSmall {
+  display: none;
+}
+@media (max-width: 1000px) { 
+    .logo {
+      width: 30%;
+      float: left;
+
+    }
+    .title {
+      width: 60%;
+      margin: auto;
+      float: left;
+    }
+    .search {
+      float: right;
+      width: 100%;
+    }
+    .navbar-default {
+      position: relative !important;
+    }
+    .topButtons {
+      font-size: 12px;
+      font-weight: none;
+      font-size: 15px;
+    }
+    .test {
+      display: none;
+    }
+    .showSmall {
+      display: inline;
+    }
+    .showSmall .img-responsive {
+      width: 80%;
+      margin: 0 auto;
+    }
+ }
+@media (min-width: 2000px) { 
+  .topButtons {
+    font-size: 18px;
+  }
 }
