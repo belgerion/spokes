@@ -13,7 +13,7 @@
   margin-left: -50px !important;
 }
 .search{
-  margin: 40px 0 0 330px !important;
+  margin: 40px 0 0 0 !important;
   background-color: #c2fdff;
 }
 .skipNav {
@@ -147,8 +147,16 @@ body {
       margin: 0 auto;
     }
  }
-@media (min-width: 2000px) { 
+@media (max-width: 1200px) { 
   .topButtons {
-    font-size: 18px;
+    font-size: 12px !important;
   }
+  .ltBold {
+  font-size: 15px;
+  font-weight: bold;
+}
+.drkBold {
+  font-size: 20px;
+  font-weight: bolder;
+}
 }
